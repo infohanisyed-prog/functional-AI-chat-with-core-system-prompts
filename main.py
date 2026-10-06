@@ -1,5 +1,9 @@
 import logging
 import time
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 from fastapi import FastAPI, HTTPException
 
